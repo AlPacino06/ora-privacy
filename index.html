@@ -7,138 +7,568 @@
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
+            line-height: 1.8;
+            max-width: 900px;
             margin: 0 auto;
             padding: 20px;
-            color: #333;
-            background-color: #f5f5f5;
+            color: #000000;
+            background-color: #ffffff;
+            font-size: 14px;
         }
         .container {
-            background: white;
+            background: #ffffff;
             padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 0;
         }
         h1 {
-            color: #1a1a1a;
-            border-bottom: 3px solid #3B82F6;
+            color: #000000;
+            border-bottom: 1px solid #000000;
             padding-bottom: 10px;
+            font-size: 24px;
+            font-weight: normal;
+            margin-bottom: 20px;
         }
         h2 {
-            color: #3B82F6;
-            margin-top: 30px;
+            color: #000000;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        h3 {
+            color: #000000;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: normal;
         }
         p, li {
-            color: #555;
+            color: #000000;
+            margin-bottom: 12px;
         }
         a {
-            color: #3B82F6;
-            text-decoration: none;
-        }
-        a:hover {
+            color: #000000;
             text-decoration: underline;
         }
+        a:hover {
+            text-decoration: none;
+        }
         .last-updated {
-            color: #888;
-            font-style: italic;
+            color: #000000;
+            font-style: normal;
             margin-bottom: 30px;
         }
         .contact {
-            background: #f0f7ff;
+            background: #f5f5f5;
             padding: 20px;
-            border-radius: 8px;
+            border-radius: 0;
             margin-top: 30px;
+            border: 1px solid #000000;
+        }
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        hr {
+            margin: 40px 0;
+            border: none;
+            border-top: 1px solid #000000;
+        }
+        .section-number {
+            display: inline;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Politique de Confidentialité</h1>
-        <p class="last-updated">Dernière mise à jour : <span id="date"></span></p>
+        <p class="last-updated">Dernière mise à jour : 15 janvier 2025</p>
         
-        <h2>1. Introduction</h2>
-        <p>ORA ("nous", "notre", "l'application") s'engage à protéger votre vie privée et vos données personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons, stockons et protégeons vos informations lorsque vous utilisez notre application mobile.</p>
+        <h2>1. Responsable du traitement des données</h2>
+        <p>Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, le responsable du traitement des données personnelles collectées via l'application ORA est :</p>
+        <p>Identité du responsable : [VOTRE NOM OU NOM DE VOTRE ENTREPRISE]</p>
+        <p>Email de contact : <a href="mailto:[VOTRE_EMAIL]">[VOTRE_EMAIL]</a></p>
+        <p>En tant que responsable du traitement, nous nous engageons à respecter la réglementation en vigueur en matière de protection des données personnelles et à mettre en œuvre toutes les mesures techniques et organisationnelles appropriées pour garantir la sécurité et la confidentialité de vos données.</p>
         
-        <h2>2. Données que nous collectons</h2>
-        <p>Nous collectons les données suivantes pour fournir et améliorer nos services :</p>
+        <h2>2. Données personnelles collectées</h2>
+        <p>Dans le cadre de l'utilisation de l'application ORA, nous collectons et traitons les catégories de données personnelles suivantes :</p>
+        
+        <h3>2.1. Données d'identification et d'authentification</h3>
+        <p>Lors de la création de votre compte, nous collectons :</p>
         <ul>
-            <li><strong>Informations d'authentification</strong> : Adresse email (via Apple Sign In)</li>
-            <li><strong>Données de profil</strong> : Prénom, photo de profil</li>
-            <li><strong>Données nutritionnelles</strong> : Repas scannés, photos de repas, calories, macronutriments (protéines, glucides, lipides), micronutriments</li>
-            <li><strong>Données de santé et fitness</strong> : Poids, taille, âge, objectifs (prise de poids, perte de poids, prise de muscle), séances d'entraînement complétées, durée des séances</li>
-            <li><strong>Données de questionnaire</strong> : Réponses au questionnaire initial (sexe, niveau d'activité, jours d'entraînement, etc.)</li>
-            <li><strong>Données techniques</strong> : Identifiant unique de l'appareil, dates de connexion, préférences de l'application</li>
+            <li>Votre adresse email, fournie via le service Apple Sign In</li>
+            <li>L'identifiant unique Apple associé à votre compte</li>
+            <li>Un identifiant unique généré par notre système pour votre compte utilisateur</li>
+            <li>La date et l'heure de création de votre compte</li>
         </ul>
         
-        <h2>3. Comment nous utilisons vos données</h2>
+        <h3>2.2. Données de profil utilisateur</h3>
+        <p>Vous pouvez choisir de fournir les informations suivantes :</p>
+        <ul>
+            <li>Votre prénom ou nom d'affichage</li>
+            <li>Une photo de profil (optionnelle), stockée de manière sécurisée</li>
+            <li>Vos préférences d'utilisation de l'application</li>
+        </ul>
+        
+        <h3>2.3. Données de santé et données sensibles</h3>
+        <p>Conformément à l'article 9 du RGPD, nous collectons des données de santé qui sont considérées comme des données sensibles :</p>
+        <ul>
+            <li>Votre poids actuel et historique de votre poids</li>
+            <li>Votre taille</li>
+            <li>Votre âge</li>
+            <li>Vos objectifs de santé et de fitness (prise de poids, perte de poids, prise de muscle)</li>
+            <li>Votre niveau d'activité physique</li>
+            <li>Les jours de la semaine où vous vous entraînez</li>
+            <li>Votre sexe (pour le calcul des besoins nutritionnels)</li>
+        </ul>
+        <p>Ces données sont collectées uniquement avec votre consentement explicite lors de la création de votre compte et du remplissage du questionnaire initial.</p>
+        
+        <h3>2.4. Données nutritionnelles</h3>
+        <p>Lors de l'utilisation de la fonctionnalité de scan nutritionnel, nous collectons :</p>
+        <ul>
+            <li>Les photos de vos repas (capturées via la caméra, la galerie ou le scan de code-barres)</li>
+            <li>Les informations nutritionnelles extraites des repas scannés : calories, protéines, glucides, lipides, fibres, sucres, sodium, calcium, fer, vitamines (A, C, D), potassium, magnésium, zinc</li>
+            <li>Les dates et heures de chaque repas enregistré</li>
+            <li>Les quantités d'aliments consommés (en grammes)</li>
+            <li>Les noms des aliments identifiés</li>
+            <li>Les codes-barres scannés (pour les produits alimentaires)</li>
+        </ul>
+        
+        <h3>2.5. Données d'entraînement et de fitness</h3>
+        <p>Nous collectons les données suivantes relatives à vos séances d'entraînement :</p>
+        <ul>
+            <li>Les séances d'entraînement complétées (dates, durées, exercices réalisés)</li>
+            <li>Votre progression dans les programmes d'entraînement</li>
+            <li>Les statistiques d'entraînement (nombre de séances, temps total d'entraînement)</li>
+            <li>L'historique des programmes suivis</li>
+            <li>Les notes ou commentaires que vous pourriez ajouter à vos séances</li>
+        </ul>
+        
+        <h3>2.6. Données techniques et de connexion</h3>
+        <p>Pour le bon fonctionnement de l'application, nous collectons automatiquement :</p>
+        <ul>
+            <li>L'identifiant unique de votre appareil (UUID)</li>
+            <li>Les dates et heures de connexion à l'application</li>
+            <li>La version de l'application utilisée</li>
+            <li>Le type d'appareil et le système d'exploitation</li>
+            <li>Les préférences de l'application stockées localement (UserDefaults)</li>
+            <li>Les données de cache nécessaires au fonctionnement de l'application</li>
+        </ul>
+        
+        <h3>2.7. Données de questionnaire</h3>
+        <p>Lors de l'inscription, vous remplissez un questionnaire qui nous permet de personnaliser votre expérience :</p>
+        <ul>
+            <li>Vos réponses concernant votre sexe, âge, taille, poids</li>
+            <li>Vos objectifs de santé et de fitness</li>
+            <li>Votre niveau d'activité physique actuel</li>
+            <li>Les jours de la semaine où vous souhaitez vous entraîner</li>
+            <li>Toute autre information que vous choisissez de partager dans le questionnaire</li>
+        </ul>
+        
+        <h2>3. Base légale du traitement des données</h2>
+        <p>Conformément au RGPD, nous traitons vos données personnelles sur la base des fondements juridiques suivants :</p>
+        
+        <h3>3.1. Consentement explicite (Article 6.1.a et 9.2.a du RGPD)</h3>
+        <p>Le consentement explicite constitue la base légale principale pour le traitement de vos données de santé, qui sont des données sensibles au sens du RGPD. Ce consentement est obtenu :</p>
+        <ul>
+            <li>Lors de la création de votre compte, par l'acceptation explicite de cette politique de confidentialité</li>
+            <li>Lors du remplissage du questionnaire initial, où vous fournissez volontairement vos données de santé</li>
+            <li>Lors de chaque utilisation des fonctionnalités nécessitant l'accès à vos données de santé</li>
+        </ul>
+        <p>Vous pouvez retirer votre consentement à tout moment, sans affecter la licéité du traitement effectué avant le retrait du consentement.</p>
+        
+        <h3>3.2. Exécution d'un contrat (Article 6.1.b du RGPD)</h3>
+        <p>Le traitement de vos données est nécessaire à l'exécution du contrat de service que vous concluez avec nous en utilisant l'application. Cela inclut :</p>
+        <ul>
+            <li>La fourniture des services de suivi nutritionnel et d'entraînement</li>
+            <li>La personnalisation de vos programmes d'entraînement</li>
+            <li>Le calcul de vos objectifs nutritionnels</li>
+            <li>La synchronisation de vos données entre vos appareils</li>
+        </ul>
+        
+        <h3>3.3. Intérêt légitime (Article 6.1.f du RGPD)</h3>
+        <p>Nous traitons certaines données sur la base de notre intérêt légitime pour :</p>
+        <ul>
+            <li>Améliorer la qualité et les fonctionnalités de l'application</li>
+            <li>Assurer la sécurité et prévenir les fraudes</li>
+            <li>Analyser l'utilisation de l'application de manière agrégée et anonymisée</li>
+            <li>Développer de nouvelles fonctionnalités</li>
+        </ul>
+        <p>Vous pouvez vous opposer à ce traitement en nous contactant ou en supprimant votre compte.</p>
+        
+        <h3>3.4. Obligation légale (Article 6.1.c du RGPD)</h3>
+        <p>Nous pouvons être amenés à conserver certaines données pour répondre à nos obligations légales, notamment en matière de comptabilité, de facturation (si applicable) ou de réponse aux demandes des autorités compétentes.</p>
+        
+        <h2>4. Consentement et modalités de retrait</h2>
+        <p>En créant un compte et en utilisant l'application ORA, vous consentez explicitement et librement au traitement de vos données personnelles, y compris vos données de santé, conformément aux modalités décrites dans cette politique de confidentialité.</p>
+        
+        <h3>4.1. Caractéristiques du consentement</h3>
+        <p>Votre consentement doit être :</p>
+        <ul>
+            <li>Libre : vous n'êtes pas contraint de consentir</li>
+            <li>Spécifique : vous consentez à des traitements précis et identifiés</li>
+            <li>Éclairé : vous avez été informé de l'utilisation qui sera faite de vos données</li>
+            <li>Univoque : votre consentement est clair et sans ambiguïté</li>
+        </ul>
+        
+        <h3>4.2. Retrait du consentement</h3>
+        <p>Vous pouvez retirer votre consentement à tout moment, sans avoir à justifier votre décision. Le retrait du consentement peut être effectué :</p>
+        <ul>
+            <li>Directement depuis l'application, en accédant aux paramètres de votre compte et en sélectionnant l'option "Supprimer mon compte"</li>
+            <li>En nous contactant par email à l'adresse indiquée dans la section "Contact" de cette politique</li>
+        </ul>
+        <p>Le retrait du consentement entraînera la suppression de votre compte et de toutes vos données personnelles dans les conditions décrites à la section 8 de cette politique.</p>
+        <p>Le retrait du consentement n'affecte pas la licéité du traitement effectué avant le retrait, conformément à l'article 7.3 du RGPD.</p>
+        
+        <h2>5. Finalités du traitement des données</h2>
+        <p>Vos données personnelles sont collectées et traitées aux fins suivantes :</p>
+        
+        <h3>5.1. Fourniture des services</h3>
         <p>Nous utilisons vos données pour :</p>
         <ul>
-            <li>Fournir et améliorer nos services de suivi nutritionnel et d'entraînement</li>
-            <li>Personnaliser vos programmes d'entraînement selon vos objectifs</li>
-            <li>Calculer vos objectifs nutritionnels quotidiens</li>
-            <li>Suivre votre progression et vos statistiques</li>
-            <li>Vous permettre de synchroniser vos données entre vos appareils</li>
-            <li>Améliorer l'expérience utilisateur de l'application</li>
+            <li>Vous permettre de créer et de gérer votre compte utilisateur</li>
+            <li>Fournir les services de suivi nutritionnel en analysant vos repas et en calculant vos apports nutritionnels</li>
+            <li>Générer et personnaliser vos programmes d'entraînement selon vos objectifs, votre niveau et vos disponibilités</li>
+            <li>Calculer vos objectifs nutritionnels quotidiens basés sur votre profil (âge, sexe, taille, poids, niveau d'activité, objectifs)</li>
+            <li>Suivre votre progression dans vos programmes d'entraînement</li>
+            <li>Générer vos statistiques personnelles (calories consommées, séances complétées, temps d'entraînement, progression)</li>
+            <li>Synchroniser vos données entre vos différents appareils iOS</li>
         </ul>
         
-        <h2>4. Stockage des données</h2>
-        <p>Vos données sont stockées de manière sécurisée sur les serveurs de <strong>Supabase</strong>, notre fournisseur d'hébergement de données. Les photos (profil et repas) sont stockées dans Supabase Storage avec des mesures de sécurité appropriées.</p>
-        <p>Certaines données peuvent également être stockées localement sur votre appareil via UserDefaults pour améliorer les performances de l'application.</p>
-        
-        <h2>5. Partage des données</h2>
-        <p>Nous ne vendons, ne louons ni ne partageons vos données personnelles avec des tiers à des fins commerciales. Vos données sont uniquement accessibles à vous et à notre service pour le fonctionnement de l'application.</p>
-        <p>Nous pouvons être amenés à divulguer vos données si la loi l'exige ou pour protéger nos droits légitimes.</p>
-        
-        <h2>6. Vos droits (RGPD)</h2>
-        <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :</p>
+        <h3>5.2. Amélioration des services</h3>
+        <p>Nous utilisons vos données de manière agrégée et anonymisée pour :</p>
         <ul>
-            <li><strong>Droit d'accès</strong> : Vous pouvez accéder à toutes vos données personnelles</li>
-            <li><strong>Droit de rectification</strong> : Vous pouvez corriger vos données inexactes</li>
-            <li><strong>Droit à l'effacement</strong> : Vous pouvez supprimer votre compte et toutes vos données</li>
-            <li><strong>Droit à la portabilité</strong> : Vous pouvez demander une copie de vos données</li>
-            <li><strong>Droit d'opposition</strong> : Vous pouvez vous opposer au traitement de vos données</li>
+            <li>Améliorer la précision de l'analyse nutritionnelle</li>
+            <li>Développer de nouvelles fonctionnalités</li>
+            <li>Corriger les bugs et améliorer les performances de l'application</li>
+            <li>Analyser les tendances d'utilisation de manière anonyme</li>
         </ul>
-        <p>Pour exercer ces droits, vous pouvez supprimer votre compte directement depuis l'application ou nous contacter à l'adresse indiquée ci-dessous.</p>
         
-        <h2>7. Sécurité</h2>
-        <p>Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos données personnelles :</p>
+        <h3>5.3. Communication et support</h3>
+        <p>Nous pouvons utiliser vos données pour :</p>
         <ul>
-            <li>Chiffrement des données en transit et au repos</li>
-            <li>Authentification sécurisée via Apple Sign In</li>
-            <li>Stockage sécurisé via Supabase avec des politiques de sécurité strictes</li>
-            <li>Accès restreint aux données (seul vous pouvez accéder à vos données)</li>
+            <li>Vous contacter concernant votre compte ou les services que nous fournissons</li>
+            <li>Répondre à vos demandes de support technique</li>
+            <li>Vous informer des modifications importantes de nos services ou de cette politique de confidentialité</li>
         </ul>
         
-        <h2>8. Cookies et technologies de suivi</h2>
-        <p>Notre application n'utilise pas de cookies ou de technologies de suivi similaires. Nous ne suivons pas votre activité en dehors de l'application.</p>
+        <h3>5.4. Sécurité et prévention de la fraude</h3>
+        <p>Nous utilisons vos données techniques pour :</p>
+        <ul>
+            <li>Détecter et prévenir les activités frauduleuses</li>
+            <li>Assurer la sécurité de votre compte</li>
+            <li>Protéger l'intégrité de nos systèmes</li>
+        </ul>
         
-        <h2>9. Conservation des données</h2>
-        <p>Nous conservons vos données tant que votre compte est actif. Si vous supprimez votre compte, toutes vos données sont définitivement supprimées dans un délai de 30 jours, sauf obligation légale de conservation.</p>
+        <h2>6. Stockage, hébergement et transfert des données</h2>
         
-        <h2>10. Modifications de cette politique</h2>
-        <p>Nous pouvons modifier cette politique de confidentialité à tout moment. Les modifications importantes vous seront notifiées via l'application. La date de dernière mise à jour est indiquée en haut de cette page.</p>
+        <h3>6.1. Hébergement des données</h3>
+        <p>Vos données personnelles sont hébergées et stockées sur les serveurs de <strong>Supabase, Inc.</strong>, une société basée aux États-Unis, qui agit en tant que sous-traitant de données conformément à l'article 28 du RGPD.</p>
+        <p>Supabase fournit les services suivants :</p>
+        <ul>
+            <li>Hébergement de la base de données PostgreSQL contenant vos données personnelles</li>
+            <li>Stockage des fichiers (photos de profil et photos de repas) via Supabase Storage</li>
+            <li>Services d'authentification et de gestion des utilisateurs</li>
+            <li>Services de synchronisation en temps réel</li>
+        </ul>
+        <p>Les données sont stockées dans des centres de données sécurisés avec des mesures de sécurité physiques et logiques appropriées.</p>
         
-        <h2>11. Contact</h2>
+        <h3>6.2. Transfert de données hors de l'Union Européenne</h3>
+        <p>Comme Supabase est basé aux États-Unis, vos données personnelles peuvent être transférées, stockées et traitées en dehors de l'Union Européenne.</p>
+        <p>Ce transfert international est encadré par les garanties suivantes :</p>
+        <ul>
+            <li>Les <a href="https://supabase.com/legal/privacy" target="_blank">Clauses Contractuelles Types</a> (Standard Contractual Clauses) approuvées par la Commission Européenne, qui garantissent un niveau de protection équivalent à celui du RGPD</li>
+            <li>Les garanties contractuelles de Supabase concernant la sécurité et la confidentialité des données, conformes aux exigences du RGPD</li>
+            <li>Les mesures techniques et organisationnelles mises en place par Supabase pour protéger vos données</li>
+        </ul>
+        <p>Vous pouvez obtenir une copie des garanties contractuelles en nous contactant à l'adresse indiquée dans la section "Contact".</p>
+        
+        <h3>6.3. Stockage local sur votre appareil</h3>
+        <p>Certaines données peuvent être stockées localement sur votre appareil iOS via le mécanisme UserDefaults d'Apple pour :</p>
+        <ul>
+            <li>Améliorer les performances de l'application</li>
+            <li>Permettre le fonctionnement hors ligne de certaines fonctionnalités</li>
+            <li>Stocker vos préférences utilisateur</li>
+            <li>Mettre en cache certaines données pour réduire la consommation de données</li>
+        </ul>
+        <p>Ces données locales sont chiffrées par le système iOS et ne sont accessibles que par l'application ORA sur votre appareil.</p>
+        
+        <h3>6.4. Durée de stockage</h3>
+        <p>Vos données sont stockées sur les serveurs de Supabase tant que votre compte est actif. Les données sont automatiquement supprimées conformément à la section 8 de cette politique.</p>
+        
+        <h2>7. Partage et communication des données</h2>
+        
+        <h3>7.1. Absence de vente ou de location de données</h3>
+        <p>Nous ne vendons, ne louons, ne commercialisons ni ne monétisons vos données personnelles. Vos données ne sont jamais utilisées à des fins publicitaires ou de marketing tiers.</p>
+        
+        <h3>7.2. Sous-traitants et prestataires de services</h3>
+        <p>Nous faisons appel aux sous-traitants suivants qui peuvent avoir accès à certaines de vos données dans le cadre strict de la fourniture de leurs services :</p>
+        
+        <h4>7.2.1. Supabase, Inc. (États-Unis)</h4>
+        <p>Supabase agit en tant que sous-traitant pour :</p>
+        <ul>
+            <li>L'hébergement de la base de données contenant vos données personnelles</li>
+            <li>Le stockage des photos (profil et repas) dans Supabase Storage</li>
+            <li>Les services d'authentification et de gestion des utilisateurs</li>
+        </ul>
+        <p>Politique de confidentialité de Supabase : <a href="https://supabase.com/legal/privacy" target="_blank">https://supabase.com/legal/privacy</a></p>
+        <p>Supabase est soumis à des obligations strictes de confidentialité et de sécurité conformes au RGPD, définies dans notre contrat de sous-traitance.</p>
+        
+        <h4>7.2.2. Apple Inc. (États-Unis)</h4>
+        <p>Apple fournit le service d'authentification Apple Sign In, qui nous permet de :</p>
+        <ul>
+            <li>Authentifier votre identité de manière sécurisée</li>
+            <li>Récupérer votre adresse email (si vous y consentez)</li>
+        </ul>
+        <p>Politique de confidentialité d'Apple : <a href="https://www.apple.com/privacy/" target="_blank">https://www.apple.com/privacy/</a></p>
+        <p>Apple ne partage avec nous que les informations que vous autorisez explicitement lors de l'utilisation d'Apple Sign In.</p>
+        
+        <h3>7.3. Services d'analyse nutritionnelle</h3>
+        <p>Pour analyser vos repas, nous utilisons les services suivants qui peuvent recevoir les photos de vos repas (sans vos données personnelles identifiantes) :</p>
+        <ul>
+            <li><strong>OpenAI Vision API</strong> : Pour l'analyse d'images et l'identification des aliments dans vos photos de repas. Les photos sont transmises de manière sécurisée et ne sont pas stockées par OpenAI.</li>
+            <li><strong>USDA FoodData Central</strong> : Base de données publique pour les informations nutritionnelles (pas de transmission de données personnelles).</li>
+            <li><strong>CIQUAL</strong> : Base de données française pour les informations nutritionnelles (pas de transmission de données personnelles).</li>
+            <li><strong>OpenFoodFacts</strong> : Base de données pour les produits alimentaires scannés via code-barres (pas de transmission de données personnelles).</li>
+        </ul>
+        
+        <h3>7.4. Communication aux autorités</h3>
+        <p>Nous pouvons être amenés à communiquer vos données personnelles aux autorités compétentes dans les cas suivants :</p>
+        <ul>
+            <li>Si la loi l'exige ou si nous sommes contraints par une décision judiciaire</li>
+            <li>Pour répondre à une demande légale d'une autorité publique</li>
+            <li>Pour protéger nos droits, notre propriété ou notre sécurité, ou ceux de nos utilisateurs</li>
+            <li>En cas d'urgence pour protéger la sécurité publique</li>
+        </ul>
+        
+        <h3>7.5. Transfert en cas de fusion ou d'acquisition</h3>
+        <p>En cas de fusion, acquisition, réorganisation ou vente de tout ou partie de nos actifs, vos données personnelles pourraient être transférées à la nouvelle entité, sous réserve que cette entité s'engage à respecter cette politique de confidentialité.</p>
+        
+        <h2>8. Durée de conservation des données</h2>
+        
+        <h3>8.1. Données actives</h3>
+        <p>Vos données personnelles sont conservées tant que :</p>
+        <ul>
+            <li>Votre compte est actif et que vous utilisez l'application</li>
+            <li>Vous ne demandez pas la suppression de votre compte</li>
+            <li>Nous n'avons pas d'obligation légale de les conserver plus longtemps</li>
+        </ul>
+        
+        <h3>8.2. Suppression du compte</h3>
+        <p>Lorsque vous supprimez votre compte (soit directement depuis l'application, soit en nous contactant), toutes vos données personnelles sont supprimées définitivement dans un délai maximum de <strong>30 jours calendaires</strong> à compter de la demande de suppression.</p>
+        <p>Ce délai de 30 jours est nécessaire pour :</p>
+        <ul>
+            <li>Garantir la suppression complète de toutes les copies de vos données (base de données principale, sauvegardes, cache)</li>
+            <li>Permettre la restauration de votre compte en cas de demande de suppression accidentelle (dans les 30 jours)</li>
+            <li>Assurer la cohérence technique de la suppression dans tous nos systèmes</li>
+        </ul>
+        <p>Pendant cette période de 30 jours, vos données sont toujours stockées mais votre compte est désactivé et inaccessible.</p>
+        
+        <h3>8.3. Exceptions à la suppression</h3>
+        <p>Certaines données peuvent être conservées au-delà de la suppression de votre compte dans les cas suivants :</p>
+        <ul>
+            <li><strong>Obligations légales</strong> : Si la loi l'exige (par exemple, conservation de données comptables ou fiscales), nous conservons ces données selon les durées légales applicables, généralement 10 ans pour les documents comptables en France</li>
+            <li><strong>Données anonymisées</strong> : Nous pouvons conserver des données statistiques agrégées et anonymisées qui ne permettent plus de vous identifier personnellement, à des fins d'analyse et d'amélioration de nos services</li>
+            <li><strong>Litiges en cours</strong> : Si un litige est en cours ou si nous avons des raisons légitimes de croire qu'un litige pourrait survenir, nous pouvons conserver les données pertinentes jusqu'à la résolution du litige</li>
+        </ul>
+        
+        <h3>8.4. Justification de la durée de conservation</h3>
+        <p>La conservation de vos données pendant la durée d'utilisation de votre compte est justifiée par :</p>
+        <ul>
+            <li>La nécessité de vous fournir les services demandés de manière continue</li>
+            <li>La nécessité de maintenir l'historique de votre progression et de vos statistiques</li>
+            <li>La nécessité de permettre la synchronisation de vos données entre vos appareils</li>
+            <li>L'intérêt légitime à améliorer nos services basé sur l'utilisation réelle de l'application</li>
+        </ul>
+        
+        <h2>9. Vos droits en matière de protection des données</h2>
+        <p>Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez des droits suivants concernant vos données personnelles :</p>
+        
+        <h3>9.1. Droit d'accès (Article 15 du RGPD)</h3>
+        <p>Vous avez le droit d'obtenir la confirmation que nous traitons vos données personnelles et, le cas échéant, d'obtenir une copie de toutes vos données personnelles que nous détenons.</p>
+        <p>Vous pouvez exercer ce droit en nous contactant à l'adresse indiquée dans la section "Contact". Nous vous fournirons les informations dans un format structuré, couramment utilisé et lisible par machine, dans un délai d'un mois maximum.</p>
+        
+        <h3>9.2. Droit de rectification (Article 16 du RGPD)</h3>
+        <p>Vous avez le droit de demander la rectification de vos données personnelles inexactes ou incomplètes. Vous pouvez également modifier la plupart de vos données directement depuis l'application dans la section Paramètres de votre profil.</p>
+        
+        <h3>9.3. Droit à l'effacement ou "droit à l'oubli" (Article 17 du RGPD)</h3>
+        <p>Vous avez le droit de demander la suppression de vos données personnelles dans les cas suivants :</p>
+        <ul>
+            <li>Les données ne sont plus nécessaires au regard des finalités pour lesquelles elles ont été collectées</li>
+            <li>Vous retirez votre consentement et il n'existe pas d'autre base légale au traitement</li>
+            <li>Vous vous opposez au traitement et il n'existe pas de motif légitime impérieux pour continuer le traitement</li>
+            <li>Les données ont fait l'objet d'un traitement illicite</li>
+            <li>Les données doivent être effacées pour respecter une obligation légale</li>
+        </ul>
+        <p>Vous pouvez exercer ce droit en supprimant votre compte directement depuis l'application.</p>
+        
+        <h3>9.4. Droit à la limitation du traitement (Article 18 du RGPD)</h3>
+        <p>Vous avez le droit de demander la limitation du traitement de vos données personnelles dans les cas suivants :</p>
+        <ul>
+            <li>Vous contestez l'exactitude des données (pendant la durée nécessaire à la vérification)</li>
+            <li>Le traitement est illicite et vous vous opposez à l'effacement des données</li>
+            <li>Nous n'avons plus besoin des données mais vous en avez besoin pour la constatation, l'exercice ou la défense de droits en justice</li>
+            <li>Vous vous êtes opposé au traitement (pendant la vérification de nos motifs légitimes)</li>
+        </ul>
+        
+        <h3>9.5. Droit à la portabilité des données (Article 20 du RGPD)</h3>
+        <p>Vous avez le droit de recevoir vos données personnelles dans un format structuré, couramment utilisé et lisible par machine, et de les transmettre à un autre responsable du traitement, lorsque :</p>
+        <ul>
+            <li>Le traitement est fondé sur le consentement ou sur un contrat</li>
+            <li>Le traitement est effectué à l'aide de procédés automatisés</li>
+        </ul>
+        <p>Pour exercer ce droit, contactez-nous à l'adresse indiquée dans la section "Contact".</p>
+        
+        <h3>9.6. Droit d'opposition (Article 21 du RGPD)</h3>
+        <p>Vous avez le droit de vous opposer, pour des raisons tenant à votre situation particulière, au traitement de vos données personnelles fondé sur l'intérêt légitime ou l'exécution d'une mission d'intérêt public.</p>
+        <p>Lorsque vous vous opposez au traitement, nous cessons de traiter vos données à moins que nous ne démontrions l'existence de motifs légitimes et impérieux pour le traitement qui prévalent sur vos intérêts, droits et libertés, ou pour la constatation, l'exercice ou la défense de droits en justice.</p>
+        
+        <h3>9.7. Droit de retirer le consentement (Article 7.3 du RGPD)</h3>
+        <p>Lorsque le traitement est fondé sur votre consentement, vous avez le droit de retirer votre consentement à tout moment, sans affecter la licéité du traitement effectué avant le retrait du consentement.</p>
+        <p>Le retrait du consentement peut être effectué en supprimant votre compte depuis l'application.</p>
+        
+        <h3>9.8. Droit de définir des directives post-mortem</h3>
+        <p>Conformément à la loi Informatique et Libertés, vous avez le droit de définir des directives concernant le sort de vos données personnelles après votre décès. Ces directives peuvent être générales ou particulières.</p>
+        
+        <h3>9.9. Modalités d'exercice des droits</h3>
+        <p>Pour exercer vos droits, vous pouvez :</p>
+        <ul>
+            <li>Utiliser les fonctionnalités intégrées dans l'application (modification du profil, suppression du compte)</li>
+            <li>Nous contacter par email à l'adresse indiquée dans la section "Contact"</li>
+        </ul>
+        <p>Nous nous engageons à répondre à votre demande dans un délai d'<strong>un mois maximum</strong> à compter de la réception de votre demande. Ce délai peut être prolongé de deux mois supplémentaires compte tenu de la complexité et du nombre de demandes, dans ce cas nous vous en informerons.</p>
+        <p>Avant de répondre à votre demande, nous pouvons vous demander de prouver votre identité pour des raisons de sécurité.</p>
+        <p>Si votre demande est manifestement infondée ou excessive, notamment en raison de son caractère répétitif, nous pouvons soit refuser d'y donner suite, soit exiger le paiement de frais raisonnables tenant compte des coûts administratifs supportés pour fournir l'information ou effectuer l'action demandée.</p>
+        
+        <h3>9.10. Droit d'introduire une réclamation</h3>
+        <p>Si vous estimez que vos droits ne sont pas respectés ou que le traitement de vos données personnelles ne respecte pas la réglementation, vous avez le droit d'introduire une réclamation auprès de l'autorité de contrôle compétente.</p>
+        <p>En France, l'autorité de contrôle est la <strong>Commission Nationale de l'Informatique et des Libertés (CNIL)</strong> :</p>
+        <ul>
+            <li>Adresse : 3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07</li>
+            <li>Site web : <a href="https://www.cnil.fr" target="_blank">https://www.cnil.fr</a></li>
+            <li>Téléphone : 01 53 73 22 22</li>
+        </ul>
+        <p>Vous pouvez également introduire une réclamation auprès de l'autorité de contrôle de votre pays de résidence si vous résidez dans un autre État membre de l'Union Européenne.</p>
+        
+        <h2>10. Mesures de sécurité</h2>
+        <p>Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre la perte, l'utilisation abusive, l'accès non autorisé, la divulgation, l'altération ou la destruction.</p>
+        
+        <h3>10.1. Mesures techniques de sécurité</h3>
+        <p>Les mesures techniques de sécurité incluent notamment :</p>
+        <ul>
+            <li><strong>Chiffrement des données en transit</strong> : Toutes les communications entre l'application et nos serveurs sont chiffrées via le protocole HTTPS/TLS (Transport Layer Security) avec des certificats SSL valides</li>
+            <li><strong>Chiffrement des données au repos</strong> : Les données stockées dans la base de données sont chiffrées au repos</li>
+            <li><strong>Authentification sécurisée</strong> : Utilisation d'Apple Sign In avec des tokens d'authentification sécurisés et à durée de vie limitée</li>
+            <li><strong>Row-Level Security (RLS)</strong> : Mise en place de politiques de sécurité au niveau de la base de données pour garantir que chaque utilisateur ne peut accéder qu'à ses propres données</li>
+            <li><strong>Stockage sécurisé des photos</strong> : Les photos sont stockées dans Supabase Storage avec des politiques d'accès strictes, chaque utilisateur ne pouvant accéder qu'à ses propres photos</li>
+            <li><strong>Gestion sécurisée des mots de passe et tokens</strong> : Aucun mot de passe n'est stocké (utilisation d'Apple Sign In), les tokens sont sécurisés et régulièrement renouvelés</li>
+            <li><strong>Protection contre les attaques</strong> : Mise en place de mesures de protection contre les attaques par déni de service (DDoS), les injections SQL, les attaques par force brute, etc.</li>
+            <li><strong>Sauvegardes sécurisées</strong> : Les sauvegardes de la base de données sont effectuées régulièrement et stockées de manière sécurisée et chiffrée</li>
+        </ul>
+        
+        <h3>10.2. Mesures organisationnelles de sécurité</h3>
+        <p>Les mesures organisationnelles incluent :</p>
+        <ul>
+            <li><strong>Accès restreint aux données</strong> : Seul le personnel autorisé et nécessaire a accès aux données, et uniquement dans le cadre strict de leurs fonctions</li>
+            <li><strong>Formation du personnel</strong> : Le personnel ayant accès aux données est formé aux bonnes pratiques en matière de protection des données</li>
+            <li><strong>Audits de sécurité</strong> : Réalisation régulière d'audits de sécurité pour identifier et corriger les vulnérabilités</li>
+            <li><strong>Gestion des incidents</strong> : Mise en place de procédures pour détecter, signaler et gérer les incidents de sécurité</li>
+            <li><strong>Documentation</strong> : Documentation des procédures de sécurité et de traitement des données</li>
+        </ul>
+        
+        <h3>10.3. Limites de la sécurité</h3>
+        <p>Bien que nous mettions en œuvre des mesures de sécurité appropriées, aucune méthode de transmission ou de stockage de données sur Internet n'est totalement sécurisée. Nous ne pouvons garantir la sécurité absolue de vos données.</p>
+        <p>Il est important que vous preniez également des mesures pour protéger vos données, notamment :</p>
+        <ul>
+            <li>Ne pas partager vos identifiants de connexion</li>
+            <li>Utiliser un appareil sécurisé et à jour</li>
+            <li>Déconnecter votre session si vous utilisez l'application sur un appareil partagé</li>
+        </ul>
+        
+        <h3>10.4. Notification en cas d'incident de sécurité</h3>
+        <p>En cas d'incident de sécurité susceptible d'engendrer un risque élevé pour vos droits et libertés, nous vous en informerons dans les meilleurs délais, conformément à l'article 33 du RGPD, ainsi que la CNIL si l'incident présente un risque élevé.</p>
+        
+        <h2>11. Cookies et technologies de suivi</h2>
+        <p>Notre application mobile ORA n'utilise pas de cookies au sens traditionnel du terme, car il s'agit d'une application native iOS et non d'un site web.</p>
+        
+        <h3>11.1. Absence de cookies</h3>
+        <p>Nous n'utilisons pas de cookies ou technologies similaires pour :</p>
+        <ul>
+            <li>Suivre votre activité en dehors de l'application</li>
+            <li>Collecter des données à des fins publicitaires</li>
+            <li>Partager vos données avec des réseaux publicitaires</li>
+            <li>Analyser votre comportement à des fins de marketing</li>
+        </ul>
+        
+        <h3>11.2. Technologies utilisées</h3>
+        <p>L'application utilise uniquement :</p>
+        <ul>
+            <li><strong>UserDefaults</strong> : Stockage local sur votre appareil pour les préférences utilisateur et le cache, sans transmission à des tiers</li>
+            <li><strong>Identifiants techniques</strong> : Identifiants uniques générés par le système iOS pour le fonctionnement de l'application, sans suivi inter-applications</li>
+        </ul>
+        
+        <h3>11.3. Services tiers d'analyse</h3>
+        <p>Nous n'utilisons actuellement aucun service tiers d'analyse (tels que Google Analytics, Firebase Analytics, etc.) qui pourrait collecter des données sur votre utilisation de l'application.</p>
+        <p>Si nous décidions d'utiliser de tels services à l'avenir, nous mettrions à jour cette politique de confidentialité et vous en informerions, et nous obtiendrions votre consentement si nécessaire.</p>
+        
+        <h2>12. Données des mineurs</h2>
+        <p>Notre application ORA n'est pas destinée aux personnes de moins de 16 ans (ou à l'âge de majorité numérique applicable dans votre juridiction).</p>
+        
+        <h3>12.1. Collecte de données de mineurs</h3>
+        <p>Nous ne collectons pas sciemment de données personnelles de personnes de moins de 16 ans. Si nous apprenons qu'un mineur nous a fourni des données personnelles sans le consentement parental approprié, nous supprimerons ces informations dans les plus brefs délais et fermerons le compte concerné.</p>
+        
+        <h3>12.2. Consentement parental</h3>
+        <p>Si vous avez moins de 16 ans (ou l'âge de majorité numérique applicable), vous devez obtenir le consentement de vos parents ou tuteurs légaux avant d'utiliser l'application et de nous fournir vos données personnelles.</p>
+        
+        <h3>12.3. Signalement</h3>
+        <p>Si vous êtes parent ou tuteur et que vous apprenez que votre enfant nous a fourni des données personnelles sans votre consentement, veuillez nous contacter immédiatement à l'adresse indiquée dans la section "Contact".</p>
+        
+        <h2>13. Modifications de cette politique de confidentialité</h2>
+        <p>Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment pour refléter les changements dans nos pratiques de traitement des données, les évolutions légales ou réglementaires, ou pour d'autres raisons opérationnelles.</p>
+        
+        <h3>13.1. Notification des modifications</h3>
+        <p>En cas de modification importante de cette politique de confidentialité, nous vous en informerons :</p>
+        <ul>
+            <li>Via une notification dans l'application lors de votre prochaine connexion</li>
+            <li>Par email à l'adresse associée à votre compte (si la modification est substantielle)</li>
+            <li>En mettant à jour la date de "Dernière mise à jour" en haut de cette page</li>
+        </ul>
+        
+        <h3>13.2. Acceptation des modifications</h3>
+        <p>Votre utilisation continue de l'application après la publication des modifications de cette politique de confidentialité constitue votre acceptation de la nouvelle politique.</p>
+        <p>Si vous n'acceptez pas les modifications, vous pouvez cesser d'utiliser l'application et supprimer votre compte à tout moment.</p>
+        
+        <h3>13.3. Consultation régulière</h3>
+        <p>Nous vous encourageons à consulter régulièrement cette page pour rester informé de nos pratiques en matière de protection des données. La date de dernière mise à jour est indiquée en haut de cette page.</p>
+        
+        <h3>13.4. Historique des modifications</h3>
+        <p>Les versions précédentes de cette politique de confidentialité peuvent être consultées sur demande en nous contactant à l'adresse indiquée dans la section "Contact".</p>
+        
+        <h2>14. Droit applicable et juridiction compétente</h2>
+        <p>Cette politique de confidentialité est régie par le droit français et le Règlement Général sur la Protection des Données (RGPD) de l'Union Européenne.</p>
+        <p>En cas de litige concernant le traitement de vos données personnelles, et après avoir tenté de résoudre le litige à l'amiable, les tribunaux français seront compétents.</p>
+        <p>Si vous résidez dans un autre État membre de l'Union Européenne, vous pouvez également introduire une action devant les tribunaux de votre pays de résidence.</p>
+        
+        <h2>15. Contact et exercice de vos droits</h2>
         <div class="contact">
-            <p>Pour toute question concernant cette politique de confidentialité ou pour exercer vos droits, vous pouvez nous contacter à :</p>
-            <p><strong>Email :</strong> <a href="mailto:[VOTRE_EMAIL]">[VOTRE_EMAIL]</a></p>
+            <p>Pour toute question concernant cette politique de confidentialité, pour exercer vos droits en matière de protection des données, ou pour toute réclamation, vous pouvez nous contacter :</p>
+            <p>Email : <a href="mailto:[VOTRE_EMAIL]">[VOTRE_EMAIL]</a></p>
+            <p>Nous nous engageons à répondre à votre demande dans un délai d'un mois maximum.</p>
+            <p style="margin-top: 20px;">Si vous estimez que vos droits ne sont pas respectés ou que le traitement de vos données personnelles ne respecte pas la réglementation, vous pouvez introduire une réclamation auprès de l'autorité de contrôle compétente :</p>
+            <p><strong>Commission Nationale de l'Informatique et des Libertés (CNIL)</strong></p>
+            <p>3 Place de Fontenoy, TSA 80715, 75334 Paris Cedex 07</p>
+            <p>Site web : <a href="https://www.cnil.fr" target="_blank">https://www.cnil.fr</a></p>
+            <p>Téléphone : 01 53 73 22 22</p>
         </div>
         
-        <hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
+        <hr>
         
-        <p style="text-align: center; color: #888;">
+        <p style="text-align: center; color: #000000;">
             <a href="cgu.html">Voir les Conditions Générales d'Utilisation</a>
         </p>
     </div>
-    
-    <script>
-        // Afficher la date actuelle
-        document.getElementById('date').textContent = new Date().toLocaleDateString('fr-FR', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        });
-    </script>
 </body>
 </html>
